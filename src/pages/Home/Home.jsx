@@ -1,8 +1,12 @@
 import './home.css'
+import{ Link } from 'react-router-dom' 
 
 
 export  function Home () {
     return(
-        <div><h1>Hello world</h1></div>
+        <div className="main-container">
+            <div className="scroll-porcentage"> </div>
+            <div className="test"></div>
+        </div>
     )
 }

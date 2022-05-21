@@ -1,0 +1,22 @@
+.main-container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    grid-template-rows: 4fr 3fr 4fr;
+}
+
+
+
+.scroll-porcentage{
+    width: 20px;
+    height: 80vh;
+    background-color: #ddd;
+    z-index: 10;
+    border-radius: 5px;
+    grid-area: 1 / 1 / 2 / 4;
+}
+
+.test {
+    grid-area: 2 / 1 / 3 / 2;
+}
