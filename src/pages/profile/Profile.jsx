@@ -1,12 +1,14 @@
 import {ProfileInfo} from '../../components/profileInfo/ProfileInfo'
-import { Container } from 'react-bootstrap'
+import {Nav} from '../../components/nav/Nav'
+import './profile.css'
 
 export  function Profile () {
     return(
-        <Container className="d-flex align-items-center justify-content-center">
-            <div className="w-100 mt-100 " style= {{maxWidth : '400px', marginTop : '100px'}}>
+        <div className="main-container">
+            <Nav  currentPage={'profile'}/>
+            <div className="profile-info-container" style= {{maxWidth : '400px', marginTop : '100px'}}>
                 <ProfileInfo />
             </div>
-        </Container>
+        </div>
     )
 }

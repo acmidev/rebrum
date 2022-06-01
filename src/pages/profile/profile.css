@@ -7,17 +7,10 @@
     
 }
 
-
-
-.scroll-porcentage{
-    width: 20px;
-    height: 80vh;
-    background-color: #ddd;
-    z-index: 10;
-    border-radius: 5px;
-    grid-row: 1 / 4;
+.profile-info-container{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
     justify-self: center;
     align-self: center;
+    margin-top:none
 }
-
-
